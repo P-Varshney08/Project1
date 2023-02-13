@@ -1,0 +1,79 @@
+*{
+    margin: 8px;
+    padding: 3px;
+}
+.header{
+    background-color: black;
+    color: white;
+}
+.header .logo #logo{
+    margin-top: 1.2rem;
+}
+.header .logo h2{
+    margin-top: 1.6rem;
+}
+.links a, .button a{
+    text-decoration: none;
+    color: white;
+    margin-top: 2.6rem;
+    font-size: 17px;
+}
+.links a:hover{
+    /* color: rgb(255, 196, 0); */
+    color: rgb(45, 198, 45);
+    font-size: larger;
+    text-decoration: underline;
+}
+.button a:hover{
+    font-size: larger;
+    color: black;
+    background-color: rgb(45, 198, 45);
+    padding: 6px;
+    text-decoration: underline;
+}
+.links, .button{
+    margin-top: 2.3rem;
+}
+.button{
+    padding: 5px;
+}
+#imags:hover{
+    border-radius: 24px;
+    box-shadow: 5px 5px 5px rgb(88, 87, 87);
+    transition: 1s;
+}
+.header, .logo, .footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    margin: 1.5rem;
+    background-color: black;
+    color: white
+}
+.button a{
+    padding: ;
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 90px;
+    height: 50px;
+}
+#alag{
+    font-size: 5rem;
+    color: grey;
+    font-weight:700;
+}
+#alag{
+    list-style-type: none;
+    font-size: 20px;
+}
+.footer2, .footer3, #list{
+    list-style-type: none;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    margin-top: 4rem;
+}
